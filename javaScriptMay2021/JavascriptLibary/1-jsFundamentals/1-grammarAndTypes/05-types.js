@@ -97,6 +97,7 @@ console.log(hulk);
 console.log(hulk.age);
 console.log(hulk.color);
 console.log(typeof hulk);
+console.log(hulk.isStrong);
 
 //Arrays
 /*
@@ -107,7 +108,10 @@ Has values ('blue', 'green', 'yellow'), separated by commas
 */
 
 var stepsToBrushTeeth = ['uncap toothpaste', 'squeeze toothpaste', 'rinse brush', 'brush', 'clean toothbrush']
-//array indexing                0                   1                   2             3             4
+//array indexing                0 - index          1                   2             3             4
 //console.log(stepsToBrushTeeth);
 console.log(stepsToBrushTeeth[0]);
 console.log(typeof stepsToBrushTeeth);
+
+let bedTimeRoutine = ['take melatonin', 'wash face', 'take shower', 'get in bed'];
+console.log(bedTimeRoutine[3]);

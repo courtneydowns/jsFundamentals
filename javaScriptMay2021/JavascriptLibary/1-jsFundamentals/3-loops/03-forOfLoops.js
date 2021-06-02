@@ -2,7 +2,7 @@
 FOR OF LOOPS
 */
 
-//of requires that you 'thing' you're looping through be iterable--that means it needs
+//of requires that your 'thing' you're looping through be iterable--that means it needs
 //to be numbered
 
 // let student = {name: 'Courtney', isAwesome: true, degree: 'javascript', week: 1};

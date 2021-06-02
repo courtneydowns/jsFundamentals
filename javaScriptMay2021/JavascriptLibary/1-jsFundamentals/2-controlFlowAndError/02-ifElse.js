@@ -1,14 +1,16 @@
 //IF ELSE
 
 let weather = 75;
-
-if (weather < 70){
-    console.log('wear a jacket');
-} else {
-    console.log('no jacket necessary');
-}
+    console.log(typeof weather);
+// if (weather < 70){
+//     console.log('wear a jacket');
+// } else {
+//     console.log('no jacket necessary');
+// }
 
 //you can blend complex conditionals and if-else statements based upon your need:
+// && BOTH conditions have to be true for it to run.
+
 if (weather > 70 && typeof weather === 'number'){
     console.log('This weather is amazing!');
 } else {
@@ -17,7 +19,9 @@ if (weather > 70 && typeof weather === 'number'){
 
 //ELSE IF
 
-//if-elseif statements can be chained
+//if-elseif statements can be chained (can check for multiple conditions)
+
+//if-else is for when you are only checking ONE condition
 
 let age = 30;
 
