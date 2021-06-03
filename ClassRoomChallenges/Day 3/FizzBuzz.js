@@ -15,13 +15,13 @@ FIZZ BUZZ (Conditionals Only)
 */
 
 // IF/ELSE conditional
-let FB = 15;
+let FB = 150;
 
 // modulus operator is arithmetic operator that returns the division remainder.
 if(FB % 3 === 0 && FB % 5 === 0) { 
     //&& operator is a logical operator that allows us to compare two or more expressions.
     console.log("Fizz Buzz");
-} else if (FB % 5 === 0) {
+} else if (FB % 5 === 0) { // else if allows us to run more conditions.
     console.log("Buzz");
 } else if (FB % 3 === 0) {
     console.log("Fizz");
@@ -31,7 +31,7 @@ if(FB % 3 === 0 && FB % 5 === 0) {
 
 // SWITCH
 let FB = 30;
-
+// switch is like "if" -- the case has to be true in this case to run, case is like our "condition", break means to exit out of the condition (the switch statement), default is like "else"
 switch(true) {
     case FB % 3 === 0 && FB % 5 ===0:
         console.log("Fizz Buzz");
@@ -47,8 +47,11 @@ switch(true) {
 }
 
 let FB = 30;
-
-(FB % 3 === 0 && FB % 5 === 0) ? console.log("Fizz Buzz")
-: (FB % 5 === 0) ? console.log("Buzz")
-: (FB % 3 === 0) ? console.log(Fizz)
+// ? is like a {} and : is if else/else
+(FB % 3 === 0 && FB % 5 === 0) 
+? console.log("Fizz Buzz")
+: (FB % 5 === 0) 
+? console.log("Buzz")
+: (FB % 3 === 0) 
+? console.log(Fizz)
 : console.log("Your number is not divisible by 5 or 3.")

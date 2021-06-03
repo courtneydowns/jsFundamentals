@@ -49,8 +49,8 @@ console.log(2<1 && 3>0);
 console.log(1<2 || 3<0);
 console.log(2<1 || 3<0);
 
-let obj = {key: 'test'};
-console.log(obj == {key: 'test'});
+let obj = {key: 'test'}; // objects have key value pairs. like variables where you assign values. "key" is like the variable and 'test' is like the value, obj is the container.
+console.log(obj == {key: 'test'}); // {key: 'test' have no container.}
 
 console.log(obj == obj);
 

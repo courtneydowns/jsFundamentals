@@ -32,9 +32,10 @@ ASSIGNMENT OPERATORS
    console.log(25%7); // 25/7 -> 3 4/7 -> 4
 
    //exponential assignment operator
+   let x = 3;
    x **= 2;
    console.log(x);
 
    let y = 7
    y **= 3;
-   console.log(7);
+   console.log(y);
