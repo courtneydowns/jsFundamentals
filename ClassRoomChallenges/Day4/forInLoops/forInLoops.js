@@ -59,10 +59,67 @@ let fellowshipOfTheRing = {
       Boromir: "Horn of Gondor",
     },
     purpose:
-      'To take the One Ring to Mordor, where it is to be "cast into the fiery chasm from whence it came," in order for it to be destroyed and Sauron\'s power to come to an end.',
+      `To take the One Ring to Mordor, where it is to be "cast into the fiery chasm from whence it came," in order for it to be destroyed and Sauron's power to come to an end.`,
     formed: "25 October, 3018",
     dissolved: "26 February, 3019",
   };
 
-  console.log(fellowshipOfTheRing.members.Gandalf);
-  console.log(fellowshipOfTheRing["members"]["Gandalf"]); // members and Gandalf in quotes because referencing a property (key)
+//   console.log(fellowshipOfTheRing.members.Gandalf);
+//   console.log(fellowshipOfTheRing["members"]["Gandalf"]); // members and Gandalf in quotes because referencing a property (key)
+
+  //Bronze
+  for (character in fellowshipOfTheRing.members){
+      console.log(character);
+  }
+
+  //Silver
+  let fellowshipOfTheRing = {
+    members: {
+      Gandalf: "Staff",
+      Frodo: "Sting",
+      Sam: "Lembas Bread",
+      Aragorn: "Anduril",
+      Legolas: "Bow of the Galadhrim",
+      Gimli: "Walking Axe",
+      Pippin: "Barrow Blades",
+      Merry: "Barrow Blades",
+      Boromir: "Horn of Gondor",
+    }
+}
+
+ //!== is saying is not equal 
+for (character in fellowshipOfTheRing.members){
+    // console.log(character[0]) //0 returns the result of the first letter of each character's name
+    if (character[0]!=='A' && character[0]!=='E' && character[0]!=='I' && character[0]!=="O" && character[0]!=='U' && character[0] !=='Y') {
+        console.log(`${character}s name does not begin with a vowel.`)
+    } else {
+        console.log(`${character}s name does begin with a vowel.`)
+    }
+}
+
+//Gold
+let fellowshipOfTheRing = {
+    members: {
+      Gandalf: "Staff",
+      Frodo: "Sting",
+      Sam: "Lembas Bread",
+      Aragorn: "Anduril",
+      Legolas: "Bow of the Galadhrim",
+      Gimli: "Walking Axe",
+      Pippin: "Barrow Blades",
+      Merry: "Barrow Blades",
+      Boromir: "Horn of Gondor",
+    }
+}
+
+let arr = []
+console.log(arr)
+for (character in fellowshipOfTheRing.members){
+    if (character[0]!=='A' && character[0]!=='E' && character[0]!=='I' && character[0]!=="O" && character[0]!=='U' && character[0] !=='Y') {
+        arr.push(character)
+    }
+}
+console.log(arr);
+
+
+

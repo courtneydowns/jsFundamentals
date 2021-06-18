@@ -1,0 +1,13 @@
+/*
+-getElementById
+-getElementsByTagName
+-getElementsByClass
+-querySelector
+-querySelectorAll
+
+
+-Column 1 --> Method: querySelector, querySelectorAll, getElementById, getElementsByClassName, getElementsByTagName
+-Column 2 --> NodeList, HTMLCollection or Element
+-Column 3 --> Single or Multiple
+-Column 4 --> Looping Through It
+*/

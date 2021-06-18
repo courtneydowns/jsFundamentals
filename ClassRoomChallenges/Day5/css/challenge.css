@@ -1,0 +1,12 @@
+.challenge {
+    margin: 50px;
+}
+
+.progress-title {
+    text-align: center;
+    font-family: var(--font-two);
+}
+
+.progress-para {
+    text-align: center;
+}

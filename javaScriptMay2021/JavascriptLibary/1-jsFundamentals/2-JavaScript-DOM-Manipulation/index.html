@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>Hello World!</h1>
+    <p id="testParagraph">Boggarts lavender robes, Hermione Granger Fantastic Beasts and Where to Find Them. Bee in your bonnet Hand of Glory elder wand, spectacles House Cup Bertie Bott’s Every Flavor Beans Impedimenta. Stunning spells tap-dancing spider Slytherin’s Heir mewing kittens Remus Lupin. Palominos scarlet train black robes, Metamorphimagus Niffler dead easy second bedroom. Padma and Parvati Sorting Hat Minister of Magic blue turban remember my last.</p>
+    <p class="sampleClass">This paragraph has a class of 'sampleClass'</p>
+
+    <button id="clickThisButton">I want to be clicked</button>
+
+    <label for="text" id="nameInput" placeholder="John Smith" /> -->
+
+    <label for="nameInput">Enter Your Name:</label>
+    <input type="text" id="nameInput" placeholder="John Smith"/>
+
+    <p>Welcome!</p>
+    <p>No name has been entered</p>
+
+    <script type="text/javascript">
+    // document.getElementById('testParagraph').style.color = 'blue';
+    // console.log(document.querySelectorAll("p.sampleClass"));
+
+    // document.querySelectorAll("p.sampleClass")[0].innerText = "My text was changed!"
+    // document.querySelectorAll("p.sampleClass")[0].innerHTML = "<span>I am a whole new element!</span>"
+
+    // document.getElementById('clickThisButton').addEventListener('click', () => {
+    //     console.log('I was clicked!');
+    // });
+
+    // document.getElementById('clickThisButton').addEventListener('click', (details) => {
+    //     console.log(details);
+    // });
+
+    // document.getElementById('clickThisButton').addEventListener('click', (details) => {
+    //     details.target.style.backgroundColor = 'red';
+    // });
+
+    document.getElementById('nameInput').addEventListener('keyup', (event) => {
+        console.log(event);
+    });
+
+    document.getElementById('nameInput').addEventListener('keyup', (event) => {
+        console.log(event.target.value);
+        console.log(document.getElementsByTagName("p"));
+    });
+    </script>
+</body>
+</html>
